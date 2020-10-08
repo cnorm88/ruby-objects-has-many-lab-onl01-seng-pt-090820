@@ -22,7 +22,7 @@ def author_name
     if !(self.author)
       return nil
     else
-      self.author.title
+      self.author.name
     end
   end
 
